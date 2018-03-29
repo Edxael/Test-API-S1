@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(205, 152, 255);
+    background-color: rgb(221, 166, 248);
     text-align: center;
     padding: 0% 20%;
 }
@@ -8,5 +8,10 @@ body{
     background-color: rgba(111, 255, 236, 0.7);
    border: 2px solid black; 
    padding: 8px;
-   margin-bottom: 7px;
+   margin-bottom: 15px;
+}
+
+.input1{
+    padding-left: 10px;
+    background-color: bisque;
 }

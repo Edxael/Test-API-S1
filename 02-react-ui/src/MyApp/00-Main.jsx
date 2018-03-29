@@ -17,6 +17,7 @@ export default class extends React.Component{
 
         return(
             <div>
+
                 <h1>SINGERS CRUD-API</h1>
                 <hr/>
 
@@ -25,7 +26,27 @@ export default class extends React.Component{
                 </div>
 
                 <div className="section" >
+                    <input className="input1" type="text"/>
+                    <br/><br/>
                     <button>Get One By ID</button>
+                </div>
+
+                <div className="section" >
+                    <input className="input1" type="text"/>
+                    <br/><br/>
+                    <button>Add one to database</button>
+                </div>
+
+                <div className="section" >
+                    <input className="input1" type="text"/>
+                    <br/><br/>
+                    <button>Update One By ID</button>
+                </div>
+
+                <div className="section" >
+                    <input className="input1" type="text"/>
+                    <br/><br/>
+                    <button>Delete One By ID</button>
                 </div>
 
             </div>
